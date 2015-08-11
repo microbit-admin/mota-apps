@@ -1,10 +1,10 @@
 {
   "version": "1.0.0",
   "updated": "2015-08-07",
+  "repo1": "https://github.com/microbit-admin/mota-apps/raw/master/packages/",
   "packages": [
-    {"datadir": "https://github.com/microbit-admin/mota-apps/raw/master/packages/"},
-    {"package-id": "com.kmc.onechannel.tvshows", "name": "1Channel", "version": "default", "platform": "android"},
-    {"package-id": "com.accuweather.android", "name": "AccuWeather", "version": "default", "platform": "android"},
-    {"package-id": "", "name": "Aces of the Luftwaffe", "version": "default", "platform": "android"}
+    {"package-id": "com.kmc.onechannel.tvshows", "name": "1Channel", "version": "default", "platform": "android", "source": "repo1"},
+    {"package-id": "com.accuweather.android", "name": "AccuWeather", "version": "default", "platform": "android", "source": "repo1"},
+    {"package-id": "", "name": "Aces of the Luftwaffe", "version": "default", "platform": "android", "source": "repo1"}
     ]
 }
